@@ -26,7 +26,7 @@ If your add-on includes minified files or transpiled files, you should submit yo
 
 ```yaml
 steps:
-- uses: browser-actions/public-firefox-addon@latest
+- uses: browser-actions/release-firefox-addon@latest
   with:
     addon-id: "please specify your add-on in number or UUID format, or add-on name"
     addon-path: "path/to/your/addon.zip"
